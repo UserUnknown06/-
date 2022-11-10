@@ -1,8 +1,8 @@
 //Since I'm a sb in the first place, I'm writing tones of comments, just in case I forgot.
 import java.util.Scanner;
 
-public class randomStuff{
-  public static void main(String[] args){
+public class RandomStuff{
+  public static void checkIn(){//尝试套娃、因为不return数值，直接void就行。
     Scanner sc = new Scanner(System.in);
     System.out.print("How many are enrolling? ");
     int count = sc.nextInt();//input how many times it repeats.
@@ -28,5 +28,11 @@ public class randomStuff{
     for(int loop = 0; loop < count; loop++){
       System.out.println(enrollingNames[loop]+", "+enrollingAges[loop]);
     }//for
+  }//checkin
+
+  public static void main(String[] args){
+    checkIn();//直接打出class的名字就可以执行。
   }//main
+}//class
+
 }//class
