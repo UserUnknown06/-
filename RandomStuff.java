@@ -34,5 +34,3 @@ public class RandomStuff{
     checkIn();//直接打出class的名字就可以执行。
   }//main
 }//class
-
-}//class
